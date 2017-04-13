@@ -136,6 +136,16 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SwimmingPool.Service\SwimmingPool.Service.csproj">
+      <Project>{36df8c58-3cf7-420e-a06d-7754cb27531d}</Project>
+      <Name>SwimmingPool.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SwimmingPool.Specification\SwimmingPool.Specification.csproj">
+      <Project>{a8fcc1dd-c1c5-4e4d-8116-747f8fca2cbf}</Project>
+      <Name>SwimmingPool.Specification</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

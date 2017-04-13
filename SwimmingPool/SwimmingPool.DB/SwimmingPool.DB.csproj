@@ -48,6 +48,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SwimmingPool.Specification\SwimmingPool.Specification.csproj">
+      <Project>{a8fcc1dd-c1c5-4e4d-8116-747f8fca2cbf}</Project>
+      <Name>SwimmingPool.Specification</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SwimmingPool.Web\SwimmingPool.Web.csproj">
+      <Project>{41152c6a-28fe-41fb-9a7d-376185af0b8d}</Project>
+      <Name>SwimmingPool.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

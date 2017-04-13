@@ -44,6 +44,12 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SwimmingPool.Specification\SwimmingPool.Specification.csproj">
+      <Project>{a8fcc1dd-c1c5-4e4d-8116-747f8fca2cbf}</Project>
+      <Name>SwimmingPool.Specification</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
