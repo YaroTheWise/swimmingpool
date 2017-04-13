@@ -8,5 +8,6 @@ namespace SwimmingPool.Specification
 {
     public class Order
     {
+        public int? OrderId { get; set; }
     }
 }
