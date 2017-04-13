@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwimmingPool.Specification"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwimmingPool.DB", "SwimmingPool.DB\SwimmingPool.DB.csproj", "{BAB4A525-E6D9-42BA-AEA9-5E41D3FC4FB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwimmingPool.Service", "SwimmingPool.Service\SwimmingPool.Service.csproj", "{36DF8C58-3CF7-420E-A06D-7754CB27531D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BAB4A525-E6D9-42BA-AEA9-5E41D3FC4FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAB4A525-E6D9-42BA-AEA9-5E41D3FC4FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAB4A525-E6D9-42BA-AEA9-5E41D3FC4FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36DF8C58-3CF7-420E-A06D-7754CB27531D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DF8C58-3CF7-420E-A06D-7754CB27531D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DF8C58-3CF7-420E-A06D-7754CB27531D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DF8C58-3CF7-420E-A06D-7754CB27531D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
