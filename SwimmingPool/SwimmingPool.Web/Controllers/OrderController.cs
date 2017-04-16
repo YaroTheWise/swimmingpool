@@ -9,5 +9,11 @@ namespace SwimmingPool.Web.Controllers
 {
     public class OrderController : ApiController
     {
+        [HttpGet]
+        [Route("api/order")]
+        public void Order()
+        {
+           
+        }
     }
 }
